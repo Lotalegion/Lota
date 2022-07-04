@@ -1,0 +1,110 @@
+*
+{
+    background-image: url(page/hero-bg.png);
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+}
+
+p
+{
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+img
+{
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6cm;
+}
+
+nav
+{
+    color: white
+}
+
+body {
+	font-family:;
+	padding: 0 2%;
+	margin: 0;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  justify-content: right;
+  position:sticky;
+  top: 0;
+  background-color: #141414;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: white;
+}
+
+nav .gation{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+  nav .gation{
+  display:flex;
+  flex-wrap:wrap;
+}
+nav .gation a {
+  margin-right: 20px;
+  cursor:pointer;
+  color: white;
+}
+
+nav
+{
+  padding: 13px 20px;
+  color: #fff;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  outline:none; 
+}
+
+a:visited
+{
+  color: white;
+}
+
+a:hover
+{
+    color: grey
+}
+
+footer {
+  margin-top: 5cm;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  color: #494949;
+}
+
+footer .social-media{
+  display:flex;
+}
+
+footer .social-media p{
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+a:hover
+{
+  text-decoration-line: inherit;
